@@ -14,7 +14,10 @@
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="#home" aria-label="오름산업보건센터 홈">
-        <img src="assets/oreum-logo.png" alt="㈜오름산업보건센터 로고" />
+        <picture>
+          <source srcset="assets/oreum-logo.svg" type="image/svg+xml">
+          <img src="assets/oreum-logo.png" alt="㈜오름산업보건센터 로고" />
+        </picture>
       </a>
       <nav class="nav" aria-label="주요 메뉴">
         <a href="#about">회사소개</a>
@@ -31,11 +34,7 @@
       <div class="hero-shade" aria-hidden="true"></div>
       <div class="container hero-inner">
         <div class="designation reveal">
-          <img src="assets/moel-mark.svg" alt="" />
-          <div>
-            <strong>고용노동부 지정</strong>
-            <span>보건관리전문기관</span>
-          </div>
+          <span>고용노동부 지정 보건관리전문기관</span>
         </div>
 
         <p class="hero-kicker reveal">제주 사업장의 산업보건 전문 파트너</p>
@@ -77,7 +76,7 @@
             <ul>
               <li>변경 없는 일관된 관리</li>
               <li>사업장 특성 반영</li>
-              <li>신속한 의사소통</li>
+              <li>신속한 의사소통과 피드백</li>
             </ul>
           </article>
           <article class="reveal">
@@ -86,7 +85,7 @@
             <ul>
               <li>최신 법령 및 기준 반영</li>
               <li>보건관리업무 중심 수행</li>
-              <li>실무 중심 개선방안 제시</li>
+              <li>현장 중심 개선방안 제시</li>
             </ul>
           </article>
           <article class="reveal">
@@ -125,56 +124,118 @@
         <div class="section-title reveal">
           <p>Professional Services</p>
           <h2>주요 전문서비스</h2>
-          <span>실제로 수행하는 업무 중심으로 명확하게 안내합니다.</span>
+          <span>산업안전보건법 기반의 실제 수행업무를 중심으로 안내합니다.</span>
         </div>
 
-        <div class="service-grid">
-          <article class="service-card reveal">
+        <div class="service-list">
+          <article class="service-card main-service reveal">
             <div class="icon"><svg viewBox="0 0 48 48"><path d="M17 22a7 7 0 1 0 0-14 7 7 0 0 0 0 14Zm14-1a6 6 0 1 0 0-12 6 6 0 0 0 0 12ZM5 40c1.5-8 6.4-12 12-12s10.5 4 12 12M24 34c2-3.8 5.2-5.8 9-5.8 4.8 0 8.7 3.3 10 9.8"/></svg></div>
-            <h3>보건관리 위탁수행</h3>
-            <p>사업주의 보건관리 의무 이행과 근로자 건강보호를 지원합니다.</p>
+            <div>
+              <h3>보건관리업무 위탁</h3>
+              <p>산업안전보건법에 따른 보건관리업무를 위탁 수행하여 사업주의 보건관리 의무 이행과 근로자 건강보호를 지원합니다.</p>
+              <ul>
+                <li>작업환경관리 실태 파악 및 작업장 순회점검</li>
+                <li>작업환경측정 결과 검토 및 사후관리</li>
+                <li>일반·특수건강진단 결과관리 및 유소견자 사후관리</li>
+                <li>보건교육, 응급조치체계, 보건정보관리 지원</li>
+              </ul>
+            </div>
           </article>
 
           <article class="service-card reveal">
             <div class="icon"><svg viewBox="0 0 48 48"><path d="M15 8c6 2 7 8 5 14-2 8-1 13 5 18M32 8c-6 2-7 8-5 14 2 8 1 13-5 18M10 25h28M13 16h22M14 34h20"/></svg></div>
-            <h3>근골격계 유해요인조사</h3>
-            <p>근골격계부담작업의 유해요인을 조사·평가하고 개선방안을 제시합니다.</p>
+            <div>
+              <h3>근골격계부담작업 유해요인조사</h3>
+              <p>고용노동부 고시에 따른 조사방법을 적용하여 근골격계부담작업의 유해요인을 조사·평가하고 개선방안을 제시합니다.</p>
+              <ul>
+                <li>근골격계부담작업 해당 여부 검토</li>
+                <li>작업자세, 반복동작, 취급중량 등 유해요인 조사</li>
+                <li>증상조사 및 인간공학적 평가</li>
+                <li>개선 우선순위 및 개선방안 제시</li>
+              </ul>
+            </div>
           </article>
 
           <article class="service-card reveal">
             <div class="icon"><svg viewBox="0 0 48 48"><path d="M14 6h20l6 6v30H14V6Zm20 0v8h8M20 20h14M20 28h14M20 36h10M9 13H6v30h25"/></svg></div>
-            <h3>위험성평가</h3>
-            <p>유해·위험요인을 파악하고 위험성 감소대책 수립을 지원합니다.</p>
+            <div>
+              <h3>위험성평가 및 화학물질 위험성평가</h3>
+              <p>사업장의 유해·위험요인을 파악하고 위험성 수준을 결정하여, 위험성을 낮추기 위한 감소대책 수립과 실행을 지원합니다.</p>
+              <ul>
+                <li>평가대상 공정 및 작업 선정</li>
+                <li>사업장 순회점검 및 근로자 의견청취</li>
+                <li>위험성 수준 결정 및 감소대책 수립</li>
+                <li>MSDS, 취급량, 노출수준 등을 고려한 화학물질 위험성평가</li>
+              </ul>
+            </div>
           </article>
 
           <article class="service-card reveal">
-            <div class="icon"><svg viewBox="0 0 48 48"><path d="M19 6h10M22 6v12L10 38c-1.5 2.6.2 5 3.2 5h21.6c3 0 4.7-2.4 3.2-5L26 18V6M16 33h16"/></svg></div>
-            <h3>화학물질 위험성평가</h3>
-            <p>MSDS, 취급량, 노출수준 등을 고려하여 화학물질 건강위험을 평가합니다.</p>
+            <div class="icon"><svg viewBox="0 0 48 48"><path d="M22 8v10L10 38c-1.5 2.6.2 5 3.2 5h21.6c3 0 4.7-2.4 3.2-5L26 18V8M18 8h12M16 33h16"/></svg></div>
+            <div>
+              <h3>작업환경관리 컨설팅</h3>
+              <p>작업장 순회점검을 통해 유해요인과 개선사항을 파악하고, 작업환경측정 결과에 따른 사후관리와 작업방법 개선을 지도합니다.</p>
+              <ul>
+                <li>유해작업환경 개선 및 작업방법 지도</li>
+                <li>MSDS 관리 및 화학물질 관리 지도</li>
+                <li>보호구 착용 및 안전보건표지 관리 지도</li>
+              </ul>
+            </div>
           </article>
 
           <article class="service-card reveal">
             <div class="icon"><svg viewBox="0 0 48 48"><path d="M24 42s-16-9.5-16-22A9 9 0 0 1 24 14a9 9 0 0 1 16 6c0 12.5-16 22-16 22ZM12 27h8l3-6 5 12 3-6h5"/></svg></div>
-            <h3>건강관리 및 건강상담</h3>
-            <p>건강진단 결과관리, 유소견자 사후관리, 만성질환 관리를 지원합니다.</p>
+            <div>
+              <h3>건강진단 사후관리 및 건강상담</h3>
+              <p>건강진단 결과를 관리하고 일반질환 및 직업병 유소견자에 대한 사후관리, 만성질환 관리와 건강상담을 지원합니다.</p>
+              <ul>
+                <li>일반·특수건강진단 결과관리 및 결과 설명</li>
+                <li>만성질환자 및 유소견자 사후관리</li>
+                <li>건강생활 실천, 운동·영양·생활습관 개선 지도</li>
+              </ul>
+            </div>
           </article>
 
           <article class="service-card reveal">
             <div class="icon"><svg viewBox="0 0 48 48"><path d="M6 18 24 9l18 9-18 9-18-9Zm8 5v10c4 5 16 5 20 0V23M40 20v14"/></svg></div>
-            <h3>산업안전보건교육</h3>
-            <p>정기교육, 관리감독자교육, 특별교육 및 MSDS 교육을 지원합니다.</p>
+            <div>
+              <h3>산업안전보건교육</h3>
+              <p>사업장에 필요한 산업안전보건교육을 법정교육 기준과 작업 특성에 맞게 운영할 수 있도록 지원합니다.</p>
+              <ul>
+                <li>근로자 정기 안전보건교육</li>
+                <li>관리감독자 안전보건교육</li>
+                <li>채용 시 및 작업내용 변경 시 교육</li>
+                <li>특별교육 및 MSDS 교육</li>
+              </ul>
+            </div>
           </article>
 
           <article class="service-card reveal">
             <div class="icon"><svg viewBox="0 0 48 48"><path d="M24 8c-8 0-14 5.7-14 13 0 4 2 7 5 9v6h6v4h6v-4h6v-6c3-2 5-5 5-9 0-7.3-6-13-14-13ZM18 22h12M18 28h8"/></svg></div>
-            <h3>직무스트레스 평가</h3>
-            <p>직무스트레스 요인을 측정하고 취약요인과 개선방안을 제시합니다.</p>
+            <div>
+              <h3>직무스트레스 요인평가</h3>
+              <p>KOSHA GUIDE의 직무스트레스 요인 측정 기준을 활용하여 근로자의 직무스트레스 요인을 평가하고 개선방안을 제시합니다.</p>
+              <ul>
+                <li>8개 영역 직무스트레스 요인 측정</li>
+                <li>부서별·직군별 결과 분석</li>
+                <li>고위험군 및 취약요인 분석</li>
+                <li>개선방안 및 결과보고서 작성</li>
+              </ul>
+            </div>
           </article>
 
           <article class="service-card reveal">
             <div class="icon"><svg viewBox="0 0 48 48"><path d="M24 5 39 11v11c0 10-6 17-15 21C15 39 9 32 9 22V11l15-6Zm-7 20 5 5 10-12"/></svg></div>
-            <h3>안전보건관리체계 구축</h3>
-            <p>사업장 특성에 맞는 안전보건관리체계 구축과 개선을 지원합니다.</p>
+            <div>
+              <h3>안전보건관리체계 구축</h3>
+              <p>사업장의 규모와 업종 특성을 고려하여 실질적으로 운영 가능한 안전보건관리체계 구축과 지속적 개선을 지원합니다.</p>
+              <ul>
+                <li>사업장 안전보건 수준 진단</li>
+                <li>위험요인 파악 및 개선대책 수립</li>
+                <li>비상조치계획 및 근로자 참여체계 마련</li>
+                <li>평가 및 지속적 개선 지원</li>
+              </ul>
+            </div>
           </article>
         </div>
       </div>
@@ -244,7 +305,7 @@
         <span>팩스: 0504-315-6474</span>
         <span>이메일: oreumhealth@gmail.com</span>
       </div>
-      <small>Copyright © ㈜오름산업보건센터. All Rights Reserved.</small>
+      <small>Copyright © ㈜오름산업보건센터. All Rights Reserved. · Background photo: PArangSae, CC BY-SA 4.0</small>
     </div>
   </footer>
 

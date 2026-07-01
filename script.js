@@ -9,6 +9,6 @@ const io = new IntersectionObserver((entries) => {
 }, { threshold: 0.12 });
 
 items.forEach((item, index) => {
-  item.style.transitionDelay = `${Math.min(index * 0.04, 0.28)}s`;
+  item.style.transitionDelay = `${Math.min(index * 0.035, 0.25)}s`;
   io.observe(item);
 });
