@@ -15,8 +15,8 @@ a{color:inherit;text-decoration:none}
 .container{width:min(1120px,92%);margin:0 auto}
 
 .site-header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(16px);border-bottom:1px solid rgba(220,233,223,.85)}
-.header-inner{height:104px;display:flex;align-items:center;justify-content:space-between;gap:26px}
-.brand img,.brand picture{height:100px;display:block}.brand img{max-width:560px;object-fit:contain}
+.header-inner{height:140px;display:flex;align-items:center;justify-content:space-between;gap:26px}
+.brand img,.brand picture{height:120px;display:block}.brand img{max-width:900px;object-fit:contain}
 .nav{display:flex;gap:36px;font-weight:900;color:#253127}.nav a{padding:8px 0;position:relative}.nav a:hover{color:var(--green)}.nav a:after{content:"";position:absolute;left:0;right:0;bottom:2px;height:2px;background:var(--green);transform:scaleX(0);transition:.25s}.nav a:hover:after{transform:scaleX(1)}
 .phone-btn{background:var(--green);color:#fff;padding:11px 18px;border-radius:999px;font-weight:900;box-shadow:0 8px 18px rgba(15,109,58,.16);transition:.25s ease}.phone-btn:hover{transform:translateY(-2px);background:#075c2c}
 
