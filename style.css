@@ -301,3 +301,24 @@ footer{background:#fff;color:#536058;border-top:1px solid var(--line);padding:36
     font-size:14px !important;
   }
 }
+/* header logo fix */
+.header-inner {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.brand {
+  display: flex !important;
+  align-items: center !important;
+  flex-shrink: 0 !important;
+  visibility: visible !important;
+}
+
+.brand img {
+  display: block !important;
+  height: 95px !important;
+  width: auto !important;
+  max-width: 560px !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
