@@ -345,3 +345,14 @@ footer{background:#fff;color:#536058;border-top:1px solid var(--line);padding:36
   object-fit: contain !important;
   display: block !important;
 }
+.header-inner {
+  height: 110px !important;
+}
+
+.brand img {
+  height: 72px !important;
+  width: auto !important;
+  max-width: 520px !important;
+  object-fit: contain !important;
+  display: block !important;
+}
