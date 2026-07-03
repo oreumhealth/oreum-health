@@ -322,3 +322,15 @@ footer{background:#fff;color:#536058;border-top:1px solid var(--line);padding:36
   opacity: 1 !important;
   visibility: visible !important;
 }
+/* 헤더 로고 크기 확대 */
+.brand img {
+  height: 120px !important;
+  width: auto !important;
+  max-width: none !important;
+  transform: scale(1.7);
+  transform-origin: left center;
+}
+
+.header-inner {
+  height: 150px !important;
+}
