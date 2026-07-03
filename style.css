@@ -301,7 +301,7 @@ footer{background:#fff;color:#536058;border-top:1px solid var(--line);padding:36
     font-size:14px !important;
   }
 }
-/* header logo fix */
+/* header-logo fix */
 .header-inner {
   display: flex !important;
   align-items: center !important;
