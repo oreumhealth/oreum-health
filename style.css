@@ -339,7 +339,7 @@ footer{background:#fff;color:#536058;border-top:1px solid var(--line);padding:36
 }
 
 .brand img {
-  height: 80px !important;
+  height: 70px !important;
   width: auto !important;
   max-width: 760px !important;
   object-fit: contain !important;
