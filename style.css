@@ -356,3 +356,14 @@ height: 150px !important;
   object-fit: contain !important;
   display: block !important;
 }
+.header-inner {
+  height: 120px !important;
+}
+
+.brand img {
+  height: 90px !important;
+  width: auto !important;
+  max-width: 620px !important;
+  object-fit: contain !important;
+  display: block !important;
+}
