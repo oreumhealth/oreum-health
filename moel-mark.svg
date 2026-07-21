@@ -1,5 +1,354 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" aria-hidden="true">
-<circle cx="48" cy="48" r="46" fill="#fff" stroke="#d8e3dc" stroke-width="2"/>
-<path d="M48 15c18 0 33 14.8 33 33S66 81 48 81c-9.8 0-18-7.8-18-17.2C30 54 38.3 48 48 48c9.6 0 17.5-7.7 17.5-17.1S57.6 15 48 15Z" fill="#e4032e"/>
-<path d="M48 81c-18 0-33-14.8-33-33s15-33 33-33c9.8 0 18 7.8 18 17.2C66 42 57.7 48 48 48c-9.6 0-17.5 7.7-17.5 17.1S38.4 81 48 81Z" fill="#003764"/>
-</svg>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>㈜오름산업보건센터 | OREUM Occupational Health Center</title>
+  <meta name="description" content="제주 사업장의 보건관리업무 위탁, 작업환경관리, 근골격계 유해요인조사, 위험성평가, 산업안전보건교육을 지원하는 고용노동부 지정 보건관리전문기관입니다.">
+  <meta property="og:title" content="㈜오름산업보건센터">
+  <meta property="og:description" content="근로자의 건강을 오르게, 사업장의 안전보건문화를 오르게.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="오름산업보건센터 홈">
+        <img src="header-logo.png" alt="㈜오름산업보건센터 로고" />
+      </a>
+      <nav class="nav" aria-label="주요 메뉴">
+        <a href="#home">홈</a>
+        <a href="#about">회사소개</a>
+        <a href="#greeting">대표 인사말</a>
+        <a href="#services">주요업무</a>
+        <a href="#contact">문의하기</a>
+      </nav>
+      <a class="phone-btn" href="tel:064-738-5657">064-738-5657</a>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-photo" aria-hidden="true"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <p class="hero-kicker reveal">고용노동부 지정 보건관리전문기관 · 제주 사업장의 산업보건 전문 파트너</p>
+        <h1 class="reveal">
+          근로자의 건강을 <em>오르게</em><br />
+          사업장의 안전보건문화를 <em>오르게</em>
+        </h1>
+        <p class="hero-desc reveal">
+          산업보건지도사 · 간호사 · 산업위생관리기사<br>
+          3가지 전문자격을 갖춘 보건관리전문가가<br>
+          담당자 변경 없이 지속적으로 관리합니다.
+        </p>
+        <div class="hero-actions reveal">
+          <a class="primary" href="#contact">상담 문의하기 <span>→</span></a>
+          <a class="secondary" href="#services">주요업무 보기</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro" id="about">
+      <div class="container intro-grid reveal">
+        <div>
+          <p class="eyebrow">About OREUM</p>
+          <h2>사업장의 산업보건 수준을 함께 높이는 파트너</h2>
+        </div>
+        <div class="intro-text">
+          <p>
+            ㈜오름산업보건센터는 산업안전보건법에 따른 보건관리업무를 기반으로
+            사업장의 작업환경관리, 근로자 건강관리, 산업재해 예방활동을 지속적으로 수행하는 산업보건 전문기관입니다.
+          </p>
+          <p>
+            오름은 한 걸음씩 오를수록 더 넓은 시야를 보여줍니다.
+            오름산업보건센터 역시 사업장의 안전보건 수준을 한 단계씩 함께 높여가는 든든한 파트너가 되겠습니다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="greeting" id="greeting">
+      <div class="container greeting-wrap reveal">
+        <div class="greeting-heading">
+          <p class="eyebrow">CEO Message</p>
+          <h2>사업장의 건강한 변화를 함께 만들어가겠습니다.</h2>
+          <p class="greeting-sign">㈜오름산업보건센터 대표 송은숙</p>
+        </div>
+        <div class="greeting-text">
+          <p>안녕하세요. ㈜오름산업보건센터 대표 산업보건지도사 송은숙입니다.</p>
+          <p>보건관리는 단순히 법적 의무를 이행하는 데 그치지 않습니다. 근로자의 작은 목소리에 귀 기울이고, 현장의 변화를 세심하게 살피는 것에서 진정한 산업보건이 시작된다고 생각합니다.</p>
+          <p>오름산업보건센터는 상담부터 현장 방문, 개선방안 제시와 사후관리까지 모든 과정을 대표가 직접 수행합니다. 사업장의 특성과 근로자의 건강상태를 꼼꼼히 살피며, 형식적인 관리가 아닌 실제 도움이 되는 보건관리 서비스를 제공하겠습니다.</p>
+          <p>전문성과 책임감을 바탕으로 사업주와 근로자 모두가 믿고 의지할 수 있는 산업보건 파트너가 되겠습니다.</p>
+          <p class="greeting-closing">감사합니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="why">
+      <div class="container">
+        <div class="section-title reveal">
+          <p>Why OREUM</p>
+          <h2>오름산업보건센터가 특별한 이유</h2>
+        </div>
+        <div class="why-grid why-grid-five">
+          <article class="reveal">
+            <strong>01</strong>
+            <h3>3가지 전문자격을 갖춘<br>보건관리전문가가 직접 수행합니다.</h3>
+            <p>산업보건지도사·간호사·산업위생관리기사의 전문성을 바탕으로 사업장을 직접 관리합니다.</p>
+          </article>
+          <article class="reveal">
+            <strong>02</strong>
+            <h3>담당자 변경 없이<br>지속적으로 관리합니다.</h3>
+            <p>사업장의 특성과 이력을 이해하는 전문가가 일관성 있는 보건관리 서비스를 제공합니다.</p>
+          </article>
+          <article class="reveal">
+            <strong>03</strong>
+            <h3>산업안전보건법 기반의<br>전문서비스를 제공합니다.</h3>
+            <p>최신 법령과 관련 기준을 반영하여 보건관리업무 중심의 실무형 서비스를 제공합니다.</p>
+          </article>
+          <article class="reveal">
+            <strong>04</strong>
+            <h3>제주 사업장을<br>신속하게 지원합니다.</h3>
+            <p>제주 지역 사업장의 업종과 작업환경을 고려하여 현장 중심의 개선방안을 제시합니다.</p>
+          </article>
+          <article class="reveal">
+            <strong>05</strong>
+            <h3>전문성과 신뢰를<br>바탕으로 함께합니다.</h3>
+            <p>사업장의 안전보건 수준을 높이기 위해 체계적이고 지속적인 산업보건 서비스를 제공합니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-title reveal">
+          <p>Professional Services</p>
+          <h2>주요 전문서비스</h2>
+          <span>산업안전보건법 기반의 실제 수행업무를 중심으로 안내합니다.</span>
+        </div>
+
+        <div class="service-list">
+          <article class="service-card main-service reveal">
+            <div class="icon"><svg viewBox="0 0 48 48"><path d="M17 22a7 7 0 1 0 0-14 7 7 0 0 0 0 14Zm14-1a6 6 0 1 0 0-12 6 6 0 0 0 0 12ZM5 40c1.5-8 6.4-12 12-12s10.5 4 12 12M24 34c2-3.8 5.2-5.8 9-5.8 4.8 0 8.7 3.3 10 9.8"/></svg></div>
+            <div>
+              <h3>보건관리업무 위탁</h3>
+              <p>산업안전보건법에 따른 보건관리업무를 위탁 수행하여 사업주의 보건관리 의무 이행과 근로자 건강보호를 지원합니다.</p>
+              <ul>
+                <li>작업환경관리 실태 파악 및 작업장 순회점검</li>
+                <li>작업환경측정 결과 검토 및 사후관리</li>
+                <li>일반·특수건강진단 결과관리 및 유소견자 사후관리</li>
+                <li>보건교육, 응급조치체계, 보건정보관리 지원</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="icon"><svg viewBox="0 0 48 48"><path d="M15 8c6 2 7 8 5 14-2 8-1 13 5 18M32 8c-6 2-7 8-5 14 2 8 1 13-5 18M10 25h28M13 16h22M14 34h20"/></svg></div>
+            <div>
+              <h3>근골격계부담작업 유해요인조사</h3>
+              <p>고용노동부 고시에 따른 조사방법을 적용하여 근골격계부담작업의 유해요인을 조사·평가하고 개선방안을 제시합니다.</p>
+              <ul>
+                <li>근골격계부담작업 해당 여부 검토</li>
+                <li>작업자세, 반복동작, 취급중량 등 유해요인 조사</li>
+                <li>증상조사 및 인간공학적 평가</li>
+                <li>개선 우선순위 및 개선방안 제시</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="icon"><svg viewBox="0 0 48 48"><path d="M14 6h20l6 6v30H14V6Zm20 0v8h8M20 20h14M20 28h14M20 36h10M9 13H6v30h25"/></svg></div>
+            <div>
+              <h3>위험성평가 및 화학물질 위험성평가</h3>
+              <p>사업장의 유해·위험요인을 파악하고 위험성 수준을 결정하여, 위험성을 낮추기 위한 감소대책 수립과 실행을 지원합니다.</p>
+              <ul>
+                <li>평가대상 공정 및 작업 선정</li>
+                <li>사업장 순회점검 및 근로자 의견청취</li>
+                <li>위험성 수준 결정 및 감소대책 수립</li>
+                <li>MSDS, 취급량, 노출수준 등을 고려한 화학물질 위험성평가</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="icon"><svg viewBox="0 0 48 48"><path d="M22 8v10L10 38c-1.5 2.6.2 5 3.2 5h21.6c3 0 4.7-2.4 3.2-5L26 18V8M18 8h12M16 33h16"/></svg></div>
+            <div>
+              <h3>작업환경관리 컨설팅</h3>
+              <p>작업장 순회점검을 통해 유해요인과 개선사항을 파악하고, 작업환경측정 결과에 따른 사후관리와 작업방법 개선을 지도합니다.</p>
+              <ul>
+                <li>유해작업환경 개선 및 작업방법 지도</li>
+                <li>MSDS 관리 및 화학물질 관리 지도</li>
+                <li>보호구 착용 및 안전보건표지 관리 지도</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="icon"><svg viewBox="0 0 48 48"><path d="M24 42s-16-9.5-16-22A9 9 0 0 1 24 14a9 9 0 0 1 16 6c0 12.5-16 22-16 22ZM12 27h8l3-6 5 12 3-6h5"/></svg></div>
+            <div>
+              <h3>건강진단 사후관리 및 건강상담</h3>
+              <p>건강진단 결과를 관리하고 일반질환 및 직업병 유소견자에 대한 사후관리, 만성질환 관리와 건강상담을 지원합니다.</p>
+              <ul>
+                <li>일반·특수건강진단 결과관리 및 결과 설명</li>
+                <li>만성질환자 및 유소견자 사후관리</li>
+                <li>건강생활 실천, 운동·영양·생활습관 개선 지도</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="icon"><svg viewBox="0 0 48 48"><path d="M6 18 24 9l18 9-18 9-18-9Zm8 5v10c4 5 16 5 20 0V23M40 20v14"/></svg></div>
+            <div>
+              <h3>산업안전보건교육</h3>
+              <p>사업장에 필요한 산업안전보건교육을 법정교육 기준과 작업 특성에 맞게 운영할 수 있도록 지원합니다.</p>
+              <ul>
+                <li>근로자 정기 안전보건교육</li>
+                <li>관리감독자 안전보건교육</li>
+                <li>채용 시 및 작업내용 변경 시 교육</li>
+                <li>특별교육 및 MSDS 교육</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="icon"><svg viewBox="0 0 48 48"><path d="M24 8c-8 0-14 5.7-14 13 0 4 2 7 5 9v6h6v4h6v-4h6v-6c3-2 5-5 5-9 0-7.3-6-13-14-13ZM18 22h12M18 28h8"/></svg></div>
+            <div>
+              <h3>직무스트레스 요인평가</h3>
+              <p>KOSHA GUIDE의 직무스트레스 요인 측정 기준을 활용하여 근로자의 직무스트레스 요인을 평가하고 개선방안을 제시합니다.</p>
+              <ul>
+                <li>8개 영역 직무스트레스 요인 측정</li>
+                <li>부서별·직군별 결과 분석</li>
+                <li>고위험군 및 취약요인 분석</li>
+                <li>개선방안 및 결과보고서 작성</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="icon"><svg viewBox="0 0 48 48"><path d="M24 5 39 11v11c0 10-6 17-15 21C15 39 9 32 9 22V11l15-6Zm-7 20 5 5 10-12"/></svg></div>
+            <div>
+              <h3>안전보건관리체계 구축</h3>
+              <p>사업장의 규모와 업종 특성을 고려하여 실질적으로 운영 가능한 안전보건관리체계 구축과 지속적 개선을 지원합니다.</p>
+              <ul>
+                <li>사업장 안전보건 수준 진단</li>
+                <li>위험요인 파악 및 개선대책 수립</li>
+                <li>비상조치계획 및 근로자 참여체계 마련</li>
+                <li>평가 및 지속적 개선 지원</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-services">
+      <div class="container">
+        <div class="section-title reveal">
+          <p>Detailed Services</p>
+          <h2>보건관리업무 세부 내용</h2>
+        </div>
+        <div class="detail-list reveal">
+          <div><strong>작업환경 및 작업관리</strong><span>작업장 순회점검, 작업환경측정 결과 검토, 유해작업환경 개선 및 MSDS 관리 지도</span></div>
+          <div><strong>건강관리 및 건강상담</strong><span>건강진단 결과관리, 유소견자 사후관리, 만성질환 관리 및 건강생활 지도</span></div>
+          <div><strong>보건교육</strong><span>정기교육, 관리감독자교육, 채용 시·작업내용 변경 시 교육, 특별교육 및 MSDS 교육</span></div>
+          <div><strong>응급조치체계</strong><span>응급의료체계 협조, 응급처치 지도, 구급함 점검 및 관리 지도</span></div>
+          <div><strong>보건정보관리</strong><span>근로자 보건관리 현황 점검, 통계작성, 산업재해 및 보건업무 기록 관리</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="process">
+      <div class="container">
+        <div class="section-title reveal">
+          <p>Process</p>
+          <h2>보건관리업무 위탁 절차</h2>
+        </div>
+        <div class="process-grid reveal">
+          <div><span>STEP 01</span><strong>상담 및 사업장 현황 확인</strong></div>
+          <div><span>STEP 02</span><strong>사업장 방문 및 위탁계약</strong></div>
+          <div><span>STEP 03</span><strong>연간 보건관리계획 수립</strong></div>
+          <div><span>STEP 04</span><strong>정기 방문 및 보건관리업무 수행</strong></div>
+          <div><span>STEP 05</span><strong>보고서 제출 및 사후관리</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-title contact-title reveal">
+          <p>Contact</p>
+          <h2>문의하기</h2>
+          <span>사업장 정보를 남겨주시면 확인 후 연락드리겠습니다.</span>
+        </div>
+        <div class="contact-layout">
+          <form class="inquiry-form reveal" action="https://formsubmit.co/oreumhealth@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="[오름산업보건센터 홈페이지 문의] 새로운 상담 요청">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="_honey" class="hidden-field" tabindex="-1" autocomplete="off">
+            <div class="form-grid">
+              <label><span>업체명 <b>*</b></span><input type="text" name="업체명" required></label>
+              <label><span>담당자명 <b>*</b></span><input type="text" name="담당자명" required></label>
+              <label><span>연락처 <b>*</b></span><input type="tel" name="연락처" required></label>
+              <label><span>이메일</span><input type="email" name="이메일"></label>
+              <label><span>문의분야 <b>*</b></span>
+                <select name="문의분야" required>
+                  <option value="">선택해주세요</option>
+                  <option>보건관리업무 위탁</option>
+                  <option>근골격계부담작업 유해요인조사</option>
+                  <option>위험성평가 및 화학물질 위험성평가</option>
+                  <option>작업환경관리 컨설팅</option>
+                  <option>건강진단 사후관리 및 건강상담</option>
+                  <option>산업안전보건교육</option>
+                  <option>직무스트레스 요인평가</option>
+                  <option>안전보건관리체계 구축</option>
+                </select>
+              </label>
+              <label><span>대상 직원수</span><div class="employee-input"><input type="number" name="대상 직원수" min="1" inputmode="numeric"><em>명</em></div></label>
+              <label class="full"><span>문의내용 <b>*</b></span><textarea name="문의내용" rows="6" required></textarea></label>
+            </div>
+            <label class="privacy-check"><input type="checkbox" required><span>문의 답변을 위한 개인정보 수집 및 이용에 동의합니다. <b>*</b></span></label>
+            <button type="submit">문의하기</button>
+          </form>
+
+          <aside class="contact-info reveal">
+            <h3>연락처 및 오시는 길</h3>
+            <a href="tel:064-738-5657"><small>대표전화</small>064-738-5657</a>
+            <a href="tel:010-3752-6474"><small>휴대전화</small>010-3752-6474</a>
+            <span><small>팩스</small>0504-315-6474</span>
+            <a href="mailto:oreumhealth@gmail.com"><small>이메일</small>oreumhealth@gmail.com</a>
+            <span><small>주소</small>제주특별자치도 서귀포시 서호중앙로 55<br>유포리아지식산업센터 에이존동 301호</span>
+            <div class="map-frame">
+              <iframe title="오름산업보건센터 위치" src="https://maps.google.com/maps?q=%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%84%9C%ED%98%B8%EC%A4%91%EC%95%99%EB%A1%9C%2055&t=&z=16&ie=UTF8&iwloc=&output=embed" loading="lazy"></iframe>
+            </div>
+            <a class="map-link" href="https://map.naver.com/p/search/%EC%A0%9C%EC%A3%BC%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%84%9C%ED%98%B8%EC%A4%91%EC%95%99%EB%A1%9C%2055" target="_blank" rel="noopener">네이버 지도에서 보기</a>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <strong>㈜오름산업보건센터</strong>
+        <span>OREUM Occupational Health Center</span>
+      </div>
+      <div class="footer-info">
+        <span>대표자: 송은숙</span>
+        <span>사업자등록번호: 768-81-04057</span>
+        <span>주소: 제주특별자치도 서귀포시 서호중앙로 55, 유포리아지식산업센터 에이존동 301호</span>
+        <span>전화: 064-738-5657</span>
+        <span>휴대전화: 010-3752-6474</span>
+        <span>팩스: 0504-315-6474</span>
+        <span>이메일: oreumhealth@gmail.com</span>
+      </div>
+      <small>Copyright © ㈜오름산업보건센터. All Rights Reserved. · Background photo: HiHoHo, CC BY-SA 3.0</small>
+    </div>
+  </footer>
+
+  <a class="floating-call" href="tel:064-738-5657">전화 문의</a>
+  <script src="script.js"></script>
+</body>
+</html>
