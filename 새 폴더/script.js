@@ -15,18 +15,18 @@ items.forEach((item, index) => {
 
 
 const menuToggle = document.querySelector('.menu-toggle');
-const nav = document.querySelector('.nav');
-if (menuToggle && nav) {
+const mobileNav = document.querySelector('.nav');
+if (menuToggle && mobileNav) {
   menuToggle.addEventListener('click', () => {
-    const open = nav.classList.toggle('open');
-    menuToggle.setAttribute('aria-expanded', String(open));
-    menuToggle.setAttribute('aria-label', open ? '메뉴 닫기' : '메뉴 열기');
-    menuToggle.textContent = open ? '✕' : '☰';
+    const opened = mobileNav.classList.toggle('open');
+    menuToggle.setAttribute('aria-expanded', String(opened));
+    menuToggle.textContent = opened ? '×' : '☰';
   });
-  nav.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => {
-    nav.classList.remove('open');
-    menuToggle.setAttribute('aria-expanded', 'false');
-    menuToggle.setAttribute('aria-label', '메뉴 열기');
-    menuToggle.textContent = '☰';
-  }));
+  mobileNav.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      mobileNav.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      menuToggle.textContent = '☰';
+    });
+  });
 }
